@@ -1,0 +1,95 @@
+/* <----------| INITIALISATION VARIABLES |----------> */
+/* <----------| END |----------> */
+/* <----------| NAVIGATION |----------> */
+.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px;
+  width: 100%;
+}
+
+.navbar-brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 50px;
+}
+
+.navbar-brand-logo {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.navbar-brand-name {
+  font-size: 36px;
+  color: #fff;
+}
+
+.navigation ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-link {
+  list-style: none;
+  margin: 0 30px;
+  font-size: 18px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #00d95f;
+}
+
+.nav-active {
+  color: #fff !important;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #00d95f;
+}
+
+.container-SearchBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: solid 1px #fff;
+  border-radius: 30px;
+  padding: 7px;
+  background-color: #fff;
+  width: 25%;
+}
+
+.SearchBar-img {
+  width: 25px;
+  height: 25px;
+  margin: 0 5px;
+}
+
+.SearchBar {
+  width: 100%;
+  border: none;
+  font-size: 14px;
+}
+
+.SearchBar:focus {
+  outline-style: none;
+}
+
+/* <----------| END |----------> */
+/*# sourceMappingURL=navigation.css.map */

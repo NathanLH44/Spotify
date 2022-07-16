@@ -1,0 +1,23 @@
+.genre-cards {
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 10px;
+}
+
+.genre-cards img {
+    display: flex;
+    margin: auto;
+    width: 70%;
+    border: solid 1px $white;
+    border-radius: 10px;
+}
+
+.genre-infos {
+    margin-top: 10px;
+}
+
+.genre-title {
+    color: $white;
+}

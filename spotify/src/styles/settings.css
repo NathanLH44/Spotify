@@ -1,0 +1,18 @@
+/* <----------| INITIALISATION VARIABLES |----------> */
+/* <----------| END |----------> */
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #1d1d1d;
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+}
+/*# sourceMappingURL=settings.css.map */

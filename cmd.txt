@@ -1,0 +1,27 @@
+----------------------------------------------------------------------------------
+COMMANDES
+----------------------------------------------------------------------------------
+
+Se mettre dans le dossier clone de github et faire cette commande
+
+npx create-react-app spotify
+
+Cela crée les fichiers de base pour le projet React.
+
+----------------------------------------------------------------------------------
+
+Pour démarrer le serveur du projet :
+
+Se mettre dans le dossier du projet (spotify) et écrire la commande suivante.
+
+npm start
+
+----------------------------------------------------------------------------------
+//////////////////////////////////////////////////////////////////////////////////
+----------------------------------------------------------------------------------
+EXTENSION VSCODE
+
+--> Simple React snippets
+--> Reactjs code snippets
+--> Mithril Emmet
+----------------------------------------------------------------------------------

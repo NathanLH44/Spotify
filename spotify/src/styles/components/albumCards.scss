@@ -1,0 +1,44 @@
+.album-cards {
+    border: solid 1px white;
+    width: 18%;
+    border-radius: 10px;
+    padding: 20px 5px;
+    margin: 10px 10px;
+}
+
+.album-cards img {
+    display: flex;
+    margin: auto;
+    width: 70%;
+    border: solid 1px $white;
+    border-radius: 10px;
+}
+
+.album-infos {
+    text-align: center;
+}
+
+.album-title {
+    margin-top: 20px;
+    color: $green;
+    font-size: 20px;
+}
+
+.album-producer {
+    margin-top: 5px;
+    color: $white;
+    font-size: 16px;
+}
+
+.album-describe {
+    margin-top: 10px;
+    color: $white;
+    font-size: 14px;
+}
+
+.home-album-title {
+    text-align: center;
+    color: $white;
+    font-size: 22px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,25 @@
+/* <----------| INITIALISATION VARIABLES |----------> */
+
+// colors
+$white: #fff;
+$dark: #1d1d1d;
+// end colors
+
+/* <----------| END |----------> */
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $dark;
+
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}

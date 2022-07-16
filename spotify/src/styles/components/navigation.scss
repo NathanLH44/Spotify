@@ -1,0 +1,92 @@
+/* <----------| INITIALISATION VARIABLES |----------> */
+
+// colors
+$white: #fff;
+$dark: #1d1d1d;
+$green: #00d95f;
+
+/* <----------| END |----------> */
+
+/* <----------| NAVIGATION |----------> */
+
+// Navigation
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    width: 100%;
+}
+
+// Navbar Brand
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.navbar-brand-logo {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.navbar-brand-name {
+    font-size: 36px;
+    color: $white;
+}
+
+// Navbar-nav
+.navigation ul {
+    display: flex;
+}
+
+.nav-link {
+    list-style: none;
+    margin: 0 30px;
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+
+.nav-link:hover {
+    color: $white;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: $green;
+}
+
+.nav-active {
+    color: $white !important;
+    padding-bottom: 6px;
+    border-bottom: 2px solid $green;
+}
+
+// SearchBar
+.container-SearchBar {
+    display: flex;
+    border: solid 1px $white;
+    border-radius: 30px;
+    padding: 7px;
+    background-color: $white;
+    width: 25%;
+}
+
+.SearchBar-img {
+    width: 25px;
+    height: 25px;
+    margin: 0 5px;
+}
+
+.SearchBar {
+    width: 100%;
+    border: none;
+    font-size: 14px;
+}
+
+.SearchBar:focus {
+    outline-style: none;
+}
+
+/* <----------| END |----------> */
+
